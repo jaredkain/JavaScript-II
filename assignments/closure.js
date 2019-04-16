@@ -2,13 +2,20 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 function house() {
-  console.log(`I am the house!`);
+  const framing = 'Wood is required, here.'
+  console.log(`I am the house! ${framing}`);
+  debugger;
 
   function foundation() {
-    console.log(`I am the foundation to the house!`);
+    const concrete = 'But, comprised mainly of concrete.'
+    console.log(`I am the foundation to the house! ${framing} ${concrete}`);
+    debugger;
 
     function footing() {
-      console.log(`I am the footing to it all!`);
+      const basePoor = 'Only concrete and rebar are needed!'
+      const jk = 'Just kidding!'
+      console.log(`I am the footing to it all! ${framing} ${jk} ${basePoor}`);
+      debugger;
     }//footing
 
     footing();
