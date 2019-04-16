@@ -1,6 +1,23 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function house() {
+  console.log(`I am the house!`);
+
+  function foundation() {
+    console.log(`I am the foundation to the house!`);
+
+    function footing() {
+      console.log(`I am the footing to it all!`);
+    }//footing
+
+    footing();
+  }//foundation
+
+  foundation();
+}//house
+
+house();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
